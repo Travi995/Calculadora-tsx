@@ -1,0 +1,8 @@
+
+.Calculadora{
+    width: 25%;
+    height: 50%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(107, 103, 103);
+}

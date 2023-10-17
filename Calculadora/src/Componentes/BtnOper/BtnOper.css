@@ -1,0 +1,28 @@
+
+.BtnOper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black ;
+    border: 1px solid white;
+    margin-left: 5px; 
+    border-radius: 10px;
+    transition: all 500ms;
+}
+
+.BtnOper:hover{
+    background-color: rgb(43, 19, 82);
+    cursor: pointer;
+}
+
+.BtnOper >span{
+    color: white;
+    font-size: 20px;
+    transition: all 500ms;
+}
+
+.BtnOper:hover >span{
+    color: rgb(99, 239, 18);
+}
